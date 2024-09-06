@@ -1,4 +1,4 @@
 ---
-title: "Nasza oferta"
-description: "Oferujemy szeroką gamę materiałów budowlanych."
+title: Nasza ofert
+description: Oferujemy szeroką gamę materiałów budowlanych.
 ---
