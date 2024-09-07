@@ -3,6 +3,29 @@ import Header from "../components/header"
 import Producents from "./producenci"
 import Seo from "../components/seo"
 import { Link } from "gatsby"
+import img33 from '/static/images/33.webp';
+import img36 from '/static/images/36.webp';
+import img32 from '/static/images/32.webp';
+import img52 from '/static/images/5-2.jpg';
+import img62 from '/static/images/6-2.jpg';
+import img7 from '/static/images/7.webp';
+import img8 from '/static/images/8.webp';
+import img9 from '/static/images/9.webp';
+import img11 from '/static/images/11.webp';
+import img12 from '/static/images/12.webp';
+import img13 from '/static/images/13.webp';
+import img18 from '/static/images/18.webp';
+import img26 from '/static/images/26.webp';
+import img27 from '/static/images/27.webp';
+import img12Alt from '/static/images/1-2.jpg'; // Zmieniona nazwa importu dla unikalności
+import img30 from '/static/images/30.webp';
+import img31 from '/static/images/31.webp';
+import img42 from '/static/images/4-2.jpg';
+import img32Alt from '/static/images/3-2.jpg'; // Zmieniona nazwa importu dla unikalności
+import img35 from '/static/images/35.webp';
+import img22 from '/static/images/2-2.jpg';
+import img37 from '/static/images/37.webp';
+
 
 const IndexPage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,29 +36,11 @@ const IndexPage = () => {
     setIsModalOpen(false)
   }
   const images = [
-    "icons/33.webp",
-    "icons/36.webp",
-    "icons/32.webp",
-    "icons/5-2.jpg",
-    "icons/6-2.jpg",
-    "icons/7.webp",
-    "icons/8.webp",
-    "icons/9.webp",
-    "icons/11.webp",
-    "icons/12.webp",
-    "icons/13.webp",
-    "icons/18.webp",
-    "icons/26.webp",
-    "icons/27.webp",
-    "icons/1-2.jpg",
-    "icons/30.webp",
-    "icons/31.webp",
-    "icons/4-2.jpg",
-    "icons/3-2.jpg",
-    "icons/35.webp",
-    "icons/2-2.jpg",
-    "icons/37.webp",
-  ]
+    img33, img36, img32, img52, img62, img7, img8, img9,
+    img11, img12, img13, img18, img26, img27, img12Alt,
+    img30, img31, img42, img32Alt, img35, img22, img37
+];
+
   const galleryRef = useRef(null)
 
   const goLeft = () => {

@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react"
 import gsap from "gsap"
 import { Link } from "gatsby"
 import "../styles/style.scss"
+import logoCeramika from '/static/images/CERAMIKAlogo.png';
 
 const linkPaths = {
   Oferta: { path: "/oferta" },
@@ -79,7 +80,7 @@ const Header = ({ onMenuToggle }) => {
     <div className="home">
       <header className="header">
         <Link to="/" className="header-logo">
-          <img src="/icons/CERAMIKAlogo.png" />
+          <img src={logoCeramika} />
         </Link>
         <ul className="desktop-links">
           <li><Link to="/oferta">Oferta</Link></li>
